@@ -6,7 +6,7 @@ public class G2048 {
 
     // ---------------------------------------------------------------------- //
     // Fonctions utilitaires que vous pourrez utiliser pour implémenter les
-    // questions des exercices
+    
 
     static Random rand = new Random ();
 
@@ -75,8 +75,7 @@ public class G2048 {
     public static int UP = 2;
     public static int DOWN = 3;
 
-    // Exercice 1 :
-    // Implémentez initBoard, isBoardWinning et newSquareValue ici.
+    
 
     public static void initBoard() {
         board=new int[boardSize][boardSize];
@@ -109,8 +108,7 @@ public class G2048 {
 
     // ...
 
-    // Exercice 2 :
-    // Implémentez les fonctions demandées ici.
+    
 
     public static int[] newEmptyRow() {
         int[] t=new int[boardSize];
@@ -151,7 +149,7 @@ public class G2048 {
 
     // ...
 
-    // Exercice 3 :
+    
     // Implémentez les fonctions demandées ici, et complétez slideBoard().
 
     public static void slideBoardLeft() {
@@ -196,7 +194,7 @@ public class G2048 {
         return;
     }
 
-    // Exercice 4 :
+   
     // Complétez addSquare
 
     public static boolean caseVide(int l, int c) {
@@ -217,7 +215,7 @@ public class G2048 {
         return;
     }
 
-    // Exercice 5 :
+    
     // Implémentez ce qui est demandé ici.
 
     public static boolean isValidMove(int direction) {
